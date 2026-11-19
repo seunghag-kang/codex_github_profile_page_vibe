@@ -15,3 +15,11 @@
 .citrus-spark{color:var(--violet)}
 .visual-grid{background:linear-gradient(135deg,#d7e4d5 55%,#e5def3 100%)}
 .all-projects span{color:var(--violet)}
+
+.project-link{display:inline-flex;align-items:center;gap:10px;margin-top:17px;padding-bottom:5px;border-bottom:1px solid #8b6ddb70;color:var(--blue);font-size:11px;font-weight:600}
+.project-link:hover{color:var(--violet);border-color:var(--violet)}
+.project-report-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:16px}
+.project-report-links a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 13px;border:1px solid #d8ceef;background:#f0ebfb;color:var(--ink);font-size:11px;transition:background .2s,border-color .2s}
+.project-report-links a:hover{background:#e9e0f8;border-color:var(--violet)}
+.project-report-links a span:last-child{color:var(--violet);white-space:nowrap;font-size:10px}
+@media(max-width:600px){.project-link{font-size:12px}.project-report-links{grid-template-columns:1fr}.project-report-links a{font-size:12px}.project-report-links a span:last-child{font-size:11px}}
