@@ -5,7 +5,7 @@
 ## 내 정보로 바꾸기
 
 - `index.html`에서 소개 문구, 경력/관심사, 프로젝트 이름과 설명을 수정합니다.
-- `https://github.com/`, `https://www.linkedin.com/`, `hello@example.com` 링크를 본인 계정과 이메일로 바꿉니다.
+- `index.html`에서 학습 과정과 프로젝트 설명을 본인 내용에 맞게 수정합니다.
 - 페이지 제목과 설명은 `<title>` 및 `meta name="description"`에서 변경합니다.
 - 색상과 반응형 레이아웃은 `styles.css`에서 조정합니다.
 
@@ -23,3 +23,4 @@
 - `index.html`에서 Python 학습 과정, 데이터 분석 과제, 일일 시장 브리핑 프로젝트 소개를 수정합니다.
 - `reports/`에는 방문자가 브라우저에서 바로 확인할 수 있는 날짜별 HTML 보고서 샘플이 있습니다.
 - 보고서 샘플을 추가하면 `index.html`의 `project-report-links`에도 해당 파일 링크를 추가합니다.
+- `downloads/`의 CSV는 포트폴리오 페이지에서 바로 내려받을 수 있도록 공개 제공하는 자료입니다.
